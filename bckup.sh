@@ -1,5 +1,7 @@
 #!/bin/bash                                                                                                                                              
-# This bash script is used to backup a user's home directory to /tmp/.                                                                                                                                                                                                         
+# This bash script is used to backup a user's home directory to /tmp/.
+#
+#
 if [ -z $1 ]; then                                                       
         user=$(whoami)                                                 
 else                                                                       
