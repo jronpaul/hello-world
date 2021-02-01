@@ -1,6 +1,7 @@
 #!/bin/bash                                                                                                                                              
 # This bash script is used to backup a user's home directory to /tmp/.
 #
+#
 bckup ()
 {
 rsync -avn /home/$1 /tmp/
